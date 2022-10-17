@@ -149,10 +149,6 @@ a:active {
     margin: 2%;
 }
 
-.exp-details>div>h3 {
-    text-decoration: underline;
-}
-
 .projects>h2 {
     text-align: center;
 }
@@ -178,9 +174,9 @@ a:active {
     margin: 1%;
 }
 
-
-
-
+.contacts>p>a {
+    color: #cc8b65;
+}
 
 @media (max-width:770px) {
     .about-me {
