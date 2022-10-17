@@ -1,0 +1,192 @@
+/* Colors that I use:
+#E3DCD2 - white
+#013328 - green
+#100c0d - black
+#cc8b65 - redgreenblue
+*/
+
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url("./assets/font/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+    font-family: "RobotoCondensed-Light";
+    src: url("./assets/font/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url("./assets/font/RobotoCondensed-Regular.ttf");
+}
+
+
+* {
+    margin: 0;
+    color: #E3DCD2;
+    font-family: "RobotoCondensed-Regular";
+}
+
+header {
+    background-color: #100c0d;
+    width: 100%;
+    box-shadow: 3px 3px 3px #1a1a19; 
+}
+
+body {
+    background-color: #013328;
+    font-size: 1vw;
+}
+
+
+h2 {
+    font-family: "RobotoCondensed-Bold";
+    margin: 1%;
+    background-color: #100c0d;
+    box-shadow: 3px 3px 3px #1a1a19; 
+    font-size: 2vw;
+}
+
+h3 {
+    font-family: "RobotoCondensed-Bold";
+    margin: 2%;
+    color: #cc8b65;
+    font-size: 1.5vw;
+}
+
+h4 {
+    font-family: "RobotoCondensed-Bold";
+    font-size: 1.1vw;
+    margin: 1%;
+}
+
+a {
+    font-family: "RobotoCondensed-Bold";
+    font-size: 1.2em;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #cc8b65;
+    text-decoration: underline;
+}
+a:active {
+    color: #cc8b65;
+    text-decoration: underline;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.nav { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px;
+    list-style: none;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.photo-div {
+    margin: 2%;
+    max-width: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #E3DCD2;
+}
+
+.few-words-about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    width: 60%;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.skills>div>h3 {
+    margin-bottom: 10%;
+}
+
+.tech-skill {
+    width: 100%;
+    max-width: 210px;
+}
+
+.experience>h2 {
+    text-align: center;
+}
+
+.exp-details>div {
+    margin: 2%;
+}
+
+.exp-details>div>h3 {
+    text-decoration: underline;
+}
+
+.projects>h2 {
+    text-align: center;
+}
+
+.web-project1 {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #E3DCD2
+}
+
+
+.projects {
+ text-align: center;
+}
+
+.project {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contacts {
+    text-align: center;
+    margin: 1%;
+}
+
+
+
+
+
+@media (max-width:770px) {
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+}
