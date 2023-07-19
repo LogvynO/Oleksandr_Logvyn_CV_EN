@@ -1,9 +1,4 @@
-/* Colors that I use:
-#E3DCD2 - white
-#013328 - green
-#100c0d - black
-#cc8b65 - redgreenblue
-*/
+
 
 @font-face {
     font-family: "RobotoCondensed-Bold";
@@ -22,7 +17,7 @@
 
 * {
     margin: 0;
-    color: #E3DCD2;
+    color: #221e1c;
     font-family: "RobotoCondensed-Regular";
 }
 
@@ -33,7 +28,7 @@ header {
 }
 
 body {
-    background-color: #013328;
+    background-color: #eaf8f5;
     font-size: 1vw;
 }
 
@@ -49,7 +44,7 @@ h2 {
 h3 {
     font-family: "RobotoCondensed-Bold";
     margin: 2%;
-    color: #cc8b65;
+    color: #221e1c;
     font-size: 1.5vw;
 }
 
@@ -71,11 +66,11 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #cc8b65;
+    color: #221e1c;
     text-decoration: underline;
 }
 a:active {
-    color: #cc8b65;
+    color: ##221e1c;
     text-decoration: underline;
 }
 
@@ -175,7 +170,7 @@ a:active {
 }
 
 .contacts>p>a {
-    color: #cc8b65;
+    color: #221e1c;
 }
 
 @media (max-width:770px) {
